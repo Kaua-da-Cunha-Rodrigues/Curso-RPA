@@ -32,10 +32,6 @@ sleep(1)
 navegador.find_element(By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[2]/div[3]/span').click()
 sleep(1)
 
-#scroll pra baixo
-pg.scroll(-1000, -1000)
-sleep(1)
-
 #clica no radio "não"
 navegador.find_element(By.XPATH, '//*[@id="i24"]/div[3]/div').click()
 sleep(1)
@@ -48,9 +44,6 @@ sleep(1)
 navegador.find_element(By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[7]/div/div/div[2]/div[1]/span/div/label[5]/div[2]').click()
 sleep(2)
 
-#scroll pra baixo
-pg.scroll(-1000, -1000)
-sleep(2)
 
 #clica no muito satisfeito
 navegador.find_element(By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[8]/div/div/div[2]/div/div[1]/div/div[2]/span/div[5]/div/div/div[3]/div').click()
