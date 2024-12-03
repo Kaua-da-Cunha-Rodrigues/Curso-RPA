@@ -52,6 +52,7 @@ else:
   time.sleep(2)
   driver.find_element(By.ID,"btn_pesquisar").click()
 
+  time.sleep(4)
   tabela = driver.find_element(By.XPATH, '//*[@id="resultado-DNEC"]')
   linhas = tabela.find_elements(By.TAG_NAME, "tr")
   for linhaAtual in linhas:
